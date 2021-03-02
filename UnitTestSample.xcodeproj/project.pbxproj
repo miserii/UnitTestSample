@@ -15,6 +15,7 @@
 		4692342C25EEA1B200E708A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4692342A25EEA1B200E708A2 /* LaunchScreen.storyboard */; };
 		4692343725EEA1B200E708A2 /* UnitTestSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692343625EEA1B200E708A2 /* UnitTestSampleTests.swift */; };
 		4692344225EEA1B200E708A2 /* UnitTestSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692344125EEA1B200E708A2 /* UnitTestSampleUITests.swift */; };
+		4692345625EEA42E00E708A2 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692345525EEA42E00E708A2 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4692343D25EEA1B200E708A2 /* UnitTestSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4692344125EEA1B200E708A2 /* UnitTestSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampleUITests.swift; sourceTree = "<group>"; };
 		4692344325EEA1B200E708A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4692345525EEA42E00E708A2 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				4692343625EEA1B200E708A2 /* UnitTestSampleTests.swift */,
 				4692343825EEA1B200E708A2 /* Info.plist */,
+				4692345525EEA42E00E708A2 /* ViewControllerTests.swift */,
 			);
 			path = UnitTestSampleTests;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4692345625EEA42E00E708A2 /* ViewControllerTests.swift in Sources */,
 				4692343725EEA1B200E708A2 /* UnitTestSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
